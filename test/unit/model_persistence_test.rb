@@ -36,9 +36,9 @@ module Tire
 
         end
 
-        should "have document_type" do
-          assert_equal 'persistent_article', PersistentArticle.document_type
-          assert_equal 'persistent_article', PersistentArticle.new(:title => 'Test').document_type
+        should "have doc_type" do
+          assert_equal 'persistent_article', PersistentArticle.doc_type
+          assert_equal 'persistent_article', PersistentArticle.new(:title => 'Test').doc_type
         end
 
         should "allow to define property" do

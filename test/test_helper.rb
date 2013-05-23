@@ -42,7 +42,7 @@ end
 #
 require File.dirname(__FILE__) + '/models/active_model_article'
 require File.dirname(__FILE__) + '/models/active_model_article_with_callbacks'
-require File.dirname(__FILE__) + '/models/active_model_article_with_custom_document_type'
+require File.dirname(__FILE__) + '/models/active_model_article_with_custom_doc_type'
 require File.dirname(__FILE__) + '/models/active_model_article_with_custom_index_name'
 require File.dirname(__FILE__) + '/models/active_record_models'
 require File.dirname(__FILE__) + '/models/article'
